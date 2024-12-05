@@ -1,0 +1,258 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[markdown]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "never",
+      "source.fixAll.stylelint": "never",
+      "source.fixAll.biome": "never"
+    },
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.formatOnSave": true
+  },
+
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock,pnpm-lock.yaml, .npmrc, .nvmrc, .node-version",
+    ".env": ".env.*",
+    "vite.config.*": "vitets.config.*",
+    "astro.config.*": "auth.config.*",
+    "jsconfig.json": "jsconfig.*.json",
+    ".eslintrc": ".eslintignore",
+    ".eslintrc.*": ".eslintignore",
+    "eslint.config.*": ".eslintignore",
+    ".prettier": ".prettierignore",
+    ".prettierrc.*": ".prettierignore",
+    ".gitignore": ".editorconfig",
+    "LICENSE": "LICENSE-MIT.*, LICENSE-APACHE-2.0.*",
+    "README.md": "CHANGELOG.md, CONTRIBUTING.md, *.md",
+    "tailwind.config.*": "postcss.config.*",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "explorer.fileNesting.enabled": true,
+
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports": "explicit",
+    "source.organizeImports.biome": "explicit",
+    "source.organizeLinkDefinitions": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.detectIndentation": true,
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+  "editor.fontVariations": true,
+  "editor.fontWeight": "400",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.unicodeHighlight.allowedLocales": {
+    "fr": true
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "️": true
+  },
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.minimap.enabled": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.accessibilitySupport": "off",
+
+  "workbench.editorAssociations": {
+    "*.woff2": "font.detail.preview"
+  },
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.stickyScrollMaxItemCount": 7,
+  "workbench.editor.customLabels.patterns": {
+    "**/pages/**": "${filename}.${extname} - Pages 📚",
+    "**/components/**": "${filename}.${extname} - Components 📦",
+    "**/pages/api/**": "${filename}.${extname} - API 📡",
+    "**/__test__/**": "${filename}.${extname} - Test 🧪",
+    "**/test/**": " ${filename}.${extname} - Test 🧪",
+    "**/styles/**": "${filename}.${extname} - Styles 💅"
+  },
+
+  "window.commandCenter": false,
+  "window.zoomPerWindow": true,
+
+  "files.associations": {
+    "*.form": "xml",
+    "*.lock": "json",
+    "*.mcmeta": "jsonc",
+    "*.mdx": "mdx",
+    "*.pcss": "css",
+    "*.postcss": "css",
+    ".postcssrc": "json",
+    ".stylelintrc": "json",
+    ".env": "env"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.DS_Store": true,
+    "**/.factorypath": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true
+  },
+
+  "html.autoClosingTags": true,
+  "html.autoCreateQuotes": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.format.wrapAttributes": "aligned-multiple",
+  "html.format.wrapAttributesIndentSize": 2,
+  "html.format.wrapLineLength": 120,
+  "html.suggest.html5": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+
+  "emmet.includeLanguages": {
+    "javascriptreact": "html",
+    "typescriptreact": "html",
+    "html": "html",
+    "njk": "html",
+    "vue": "html"
+  },
+
+  "errorLens.fontFamily": "",
+
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "bold": true,
+      "color": "#FFFB00",
+      "italic": true,
+      "strikethrough": false,
+      "tag": "⚠ warning",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF2D00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "!",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#3498DB",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "?",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#474747",
+      "italic": false,
+      "strikethrough": true,
+      "tag": "//",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF8C00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "todo",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#98C379",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "*",
+      "underline": false
+    }
+  ],
+
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "js/ts.implicitProjectConfig.experimentalDecorators": false,
+  "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+  "js/ts.implicitProjectConfig.strictNullChecks": true,
+
+  "json.format.enable": true,
+  "json.format.keepLines": false,
+  "json.schemaDownload.enable": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["biome.{json,jsonc}"],
+      // replace after of schemas/<version>/schema.json
+      "url": "https://biomejs.dev/schemas/1.9.4/schema.json"
+    }
+  ],
+  "json.maxItemsComputed": 1000000,
+  "json.validate.enable": true,
+
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}

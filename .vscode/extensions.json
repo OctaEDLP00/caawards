@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "usernamehw.errorlens",
+    "kisstkondoros.vscode-gutter-preview",
+    "wix.vscode-import-cost",
+    "christian-kohler.path-intellisense",
+    "tobermory.es6-string-html",
+    "aaron-bond.better-comments",
+    "bierner.markdown-preview-github-styles",
+    "yzhang.markdown-all-in-one"
+  ]
+}
