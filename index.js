@@ -1,11 +1,13 @@
+import { $, $$ } from '~/lib/Dom.mjs'
+
 /** @type {HTMLDivElement | null} */
-const hamburger = document.querySelector('.hamburger')
+const hamburger = $('.hamburger')
 /** @type {HTMLDivElement | null} */
-const mobileMenu = document.querySelector('.mobile-menu')
+const mobileMenu = $('.mobile-menu')
 /** @type {HTMLDivElement | null} */
-const overlay = document.querySelector('.overlay')
+const overlay = $('.overlay')
 /** @type {NodeListOf<HTMLAnchorElement>} */
-const navLinks = document.querySelectorAll('.link')
+const navLinks = $$('.link')
 
 if (hamburger && mobileMenu && overlay && !(navLinks.length < 0)) {
   hamburger.addEventListener('click', () => {
